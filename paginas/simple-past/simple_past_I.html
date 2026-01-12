@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flashcards de Ingles</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="menu">
+                <button class="menu-btn" onclick="window.location.href='../../index.html'"">Menu</button>
+            </div>
+
+            <h1>Simple Past I</h1>
+
+            <!-- Area do Cartao -->
+            <div class="card-scene">
+                <div class="card-object" id="flashcard">
+                    <!-- Frente do Cartao -->
+                    <div class="card-face face-front">
+                        <p class="label-face">Change into Simple Past</p>
+                        <div class="content" id="texto-frente">Loading...</div>
+                        <p class="instruction">Click</p>
+                    </div>
+
+                    <!-- Verso do Cartao -->
+                    <div class="card-face face-back">
+                        <p class="label-face">Change into Simple Present</p>
+                        <div class="content" id="texto-verso">
+                            Carregando...
+                        </div>
+                        <p class="instruction">Click</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles de Navegacao -->
+                <div class="controls">
+                    <button id="btn-prev" class="nav-btn">&lt;</button>
+                    <span id="contador">1 / 10</span>
+                    <button id="btn-next" class="nav-btn">&gt;</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
