@@ -1,0 +1,102 @@
+body {
+    font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../../../midias/imagens/bg1.png");
+    background-size: 100%;
+    background-repeat: repeat-x repeat-y;
+    background-position: top left right bottom;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-principal {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffffe0;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.568);
+}
+
+.menu {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu-btn {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #9706aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    transition: background 0.3s;
+}
+.menu-btn:hover {
+    background-color: #0075fa;
+}
+
+.cabecalho {
+    text-align: center;
+    background-image: url("../../../midias/imagens/bg2.png");
+    background-size: 200%;
+    color: #ffffff;
+    text-shadow: 3px 3px #202020a9;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    margin: -20px -20px 5px -20px;
+    box-shadow: 0 3px 0px rgba(0, 0, 0, 0.568);
+}
+
+.conteudo {
+    text-align: center;
+    color: #4b4141;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.botao-conteudo {
+    width: 30%;
+    height: 30%;
+    padding: 10px 20px;
+    background-color: #37a537;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+.botao-conteudo:hover {
+    background-color: #006fca;
+}
