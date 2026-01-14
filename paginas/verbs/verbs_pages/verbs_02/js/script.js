@@ -85,7 +85,7 @@ function atualizarCartao() {
     conteudoVerso.innerHTML = `<div class="meaning">${dados.significado_EN}</div>`;
 
     // Atualiza contador e status do modo
-    const textoModo = modoInvertido ? " (Inverso)" : "";
+    const textoModo = modoInvertido ? " (Reverse)" : "";
     contadorElement.textContent = `${indiceAtual + 1} / ${flashcardsData.length}${textoModo}`;
 
     // Lógica dos botões para navegação contínua
